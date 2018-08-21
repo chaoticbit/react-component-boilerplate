@@ -13,7 +13,7 @@ A simple, easy to use, production build compatible, ready to publish boilerplate
 ### Rollup<br/>
 The module bundler that is used for creating component(s) bundle is [**Rollup**](https://rollupjs.org/guide/en). Rollup is very easy to configure and understand. It supports flat bundling which simply means taking your modules and turning them into a single bundle. Rollup is more suitable for creating libraries whereas Webpack is for apps.
 
-### Folder Structure
+## Folder Structure
 
 #### *`dist`* <br/>
 Contains **bundle.js** which is created when **build** is generated. This file remains the `main` target in package.json to be recognized by NPM registry when you publish your component and people install it.
@@ -37,7 +37,7 @@ Will contain sample demo application of the component you have created. Followin
 
 *Remaining are all config files*
 
-### Setup
+## Setup
 1. Clone the repository `git clone https://github.com/chaoticbit/react-component-boilerplate.git`.
 2. Edit `package.json` as per your details.
 3. Run `yarn eject` to cleanup **dist** and **src/components** folder which will delete demo-component files and bundle.
