@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "eject": "node eject.js",
-    "generate:component": "node create.js"
+    "eject": "node scripts/eject.js",
+    "generate:component": "node scripts/create.js"
   },
   "license": "MIT",
   "repository": {
