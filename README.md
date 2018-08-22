@@ -37,6 +37,16 @@ Will contain sample demo application of the component you have created. Followin
 
 *Remaining are all config files*
 
+## Services
+#### *`eject`* <br/>
+Run `yarn eject` to cleanup **dist** and **src/components** folder which will delete demo-component files and bundle.
+
+#### *`generate:component <component-name>`* <br/>
+Run `yarn generate:component <component-name>` to generate specified component folder & files in it including boilerplate code to directly start working on your logic.<br/><br/>
+Eg: `yarn generate:component action-button` will generate
+* *src/components/action-button* directory
+* *action-button.js*, *action-button.css*, *package.json* files & boilerplate code in the generated directory. 
+
 ## Setup
 1. Clone the repository `git clone https://github.com/chaoticbit/react-component-boilerplate.git`.
 2. Edit `package.json` as per your details.
